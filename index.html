@@ -9,14 +9,32 @@
 </head>
 
 <body>
-    <b>20th April 2022</b>
-    <p>He misses art in his life, his found out his life has become bland and colorless, devoid of beauty. <br>
-        What is art afterall? Anything and everthing that arouses the senses ??. <br>
-        A person in his life represented art, they took it away as they left, <br>
-        He has decided he shall replace what they represented, <br>
-        never same but similar. <br>
-    </p>
-    <hr>
+    <a href="./logs/20April2022.html">20April2022</a>
+    <br>
+    <a href="./logs/21April2022.html">21April2022</a>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyCq2t_Ce2W59Xys4Xp0IBGuA2-bcwVjps4",
+            authDomain: "funnel-wide.firebaseapp.com",
+            projectId: "funnel-wide",
+            storageBucket: "funnel-wide.appspot.com",
+            messagingSenderId: "729355641547",
+            appId: "1:729355641547:web:99e332a3e5de301b9ab14e",
+            measurementId: "G-QW3VEK3WJE"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
 </body>
 
 </html>
